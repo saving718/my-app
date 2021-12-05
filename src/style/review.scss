@@ -1,0 +1,15 @@
+.b-review{
+    margin-bottom: 20px;
+    position: relative;
+    border: 1px solid;
+    padding: 10px;
+    .review__image img{
+        width: 100px;
+        height: 100px;
+    }
+    .review__title{
+        position: absolute;
+        top: 10px;
+        left: 120px;
+    }
+}
