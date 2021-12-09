@@ -1,4 +1,18 @@
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Urbanist'), url('./fonts/Urbanist-Black.woff2') format('woff2');
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Urbanist', sans-serif;
+}
+
 .app {
-  max-width: 1280px;
-  margin: 0 auto
+  max-width: 100%;
+  background-color: #14110E;
+  height: 200vw;
 }
