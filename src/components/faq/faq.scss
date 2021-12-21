@@ -1,0 +1,22 @@
+.faq {
+    max-width: 1170px;
+    margin: 0 auto;
+    &__acordion {
+
+    }   
+    &__title {
+        background-color: #1C1814;
+        color: #FFFFFF;
+    }
+    &__description {
+        display: none;
+        &-on {
+            margin-top: 28px;
+            margin-bottom: 0;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            color: #FFFFFF;
+        }
+    }
+}

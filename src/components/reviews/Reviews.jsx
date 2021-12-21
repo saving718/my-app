@@ -1,10 +1,9 @@
-import react, { useState } from "react";
+import React from "react";
 import Review from "../review/Review";
 import '../reviews/reviews.scss';
 
-
 export default function Reviews() {
-    const [peoples, setPeoples] = useState([
+    const [peoples, setPeoples] = React.useState([
         {
         name: "John Smith",
         description: "Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..",
