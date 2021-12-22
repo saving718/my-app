@@ -1,0 +1,29 @@
+.faq {
+  &__accordion {
+    margin-bottom: 20px;
+  }
+  &__title {
+    font-size: 25px;
+    margin: 0;
+    font-weight: 500;
+    border-radius: 7px 7px 0 0;
+    padding: 15px 40px;
+    background-color: #1c1814;
+    color: #ffffff;
+  }
+  &__description {
+    display: none;
+    &--on {
+      height: auto;
+      margin-top: 20px;
+      margin-bottom: 0;
+      font-style: normal;
+      font-weight: 500;
+      border-radius: 0 0 7px 7px;
+      font-size: 18px;
+      background-color: #1c1814;
+      padding: 5px 40px;
+      color: #ffffff;
+    }
+  }
+}

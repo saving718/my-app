@@ -16,3 +16,12 @@ body {
   background-color: #14110E;
   height: 200vw;
 }
+
+h2 {
+  margin-top: 0;
+  font-size: 48px;
+  line-height: 130%;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Urbanist', sans-serif;
+}

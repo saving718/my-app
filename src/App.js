@@ -7,7 +7,7 @@ function App() {
     <div className="app">
       <Reviews/>
       <Faq/>
-=   </div>
+    </div>
   )
 }
 
